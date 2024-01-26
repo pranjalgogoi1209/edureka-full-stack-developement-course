@@ -1,2 +1,2 @@
-# edureka-full-stack-developement-course
+# edureka-full-stack-web-developement-course
 Price: 19000rs
