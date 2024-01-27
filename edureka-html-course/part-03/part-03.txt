@@ -1,4 +1,4 @@
-# DAY 3 OF EDUREKA COURSE (17/01/2024) => 
+# DAY 3 OF EDUREKA COURSE (Wednesday, 17/01/2024) => 
 
     i. Extension tells us what kind of file it is.
     ii. html: hyper text markup language.
