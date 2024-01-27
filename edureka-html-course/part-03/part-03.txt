@@ -1,0 +1,15 @@
+# DAY 3 OF EDUREKA COURSE (17/01/2024) => 
+
+    i. Extension tells us what kind of file it is.
+    ii. html: hyper text markup language.
+    iii. hyper text: highlighted text present on the webpage.
+    iv. markup language: contains all the tags that we use.
+    v. tags: Whatever we write in between two tags (opening and closing) that will be visible on our page.
+    vi. tags: <tagname>: opening tag (whetever we write between the two tags are visible on the page)</tagname>: closing tag.
+    vii. in order to have a webpage we need three important tags: 
+        * <html></html>: Root element of our page. It basically tells the browser that this whole code is containing html code.
+        * <head></head>: It has description of the page.
+        * <body></body>: It has content of the page.
+        
+
+
