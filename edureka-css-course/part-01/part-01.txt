@@ -1,1 +1,11 @@
 # EDUREKA COURSE DAY-07 (23/01/2024)
+
+# CSS =>
+
+    i. Cascading style sheet, cascading means its the ability to combine multiple css code/rules and resolve conflicts b/w them and decide which one would get applied.
+    ii. Css is there to make our blank/dull structure more attractive and ppealing to the user.
+    iii. Css code is very light weight.
+    iii. 3 ways to write css code:
+        * Inline css: The css code that we write using the style attribute of an element in k/a inline css, the css written in same line as our tags.
+        * Internal css: The css code that we write using style tag inside of the head tag is k/a internal css.
+        * External css: the css code that we write in another file and link that file to our html file is k/a external css. Outside our index.html file iin some other file that file in which we will write our css code will have .css extension.
