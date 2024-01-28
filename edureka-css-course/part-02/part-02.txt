@@ -1,0 +1,18 @@
+# EDUREKA COURSE DAY-08 (24/01/2024)
+
+
+# SPECIFICITY/PRIORITY =>
+    
+    Inline css > Internal css > External css
+
+
+# SELECTORS =>
+
+    i. Selectors are names that we use to select our elements which helps us to style them or selecting to add css to them.
+        * Tag name selector.
+        * Id selector: id is unique.
+        * Class selector: class could be belog to multiple elements for add same style or multiple style.
+
+# PRIORITY OF SELECTORS =>
+
+        ID > CLASS > ELEMENT
