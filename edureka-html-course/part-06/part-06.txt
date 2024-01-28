@@ -1,0 +1,13 @@
+# DAY 6 OF EDUREKA COURSE (MONDAY, 22/01/2024) => 
+
+    i. In HTML 5, we have canvas tag and svg tag.
+    ii. HTML 5 supports api.
+    iii. HTML 5 has drag and drop feature.
+
+# NEW TAG IN HTML 5 =>
+
+    i. header: this tag is always used in top of our pages or around headings basically.
+    ii. footer: this tag is used at the bottom of a page to add additional info.
+    iii. article: this tag is used to have article like layout.
+    iv. section: this is used to divide our page into different section.
+    v. video and audio tags: these tags are used to add audio and video on our page.
