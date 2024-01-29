@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .blockToInline {
+        display: inline;
+        background-color: orange;
+        border: 1px solid black;
+        /* height and width wil not work bcz we change this to inline element */
+        height: 10vw;
+        width: 10vw;
+      }
+      .inlineToBlock {
+        display: block;
+        height: 10vw;
+        width: 10vw;
+        background-color: pink;
+        border: 1px solid black;
+      }
+      .inlineToInlineBlock {
+        display: inline-block;
+        background-color: yellow;
+        border: 1px solid black;
+        height: 10vw;
+        width: 10vw;
+      }
+      .container {
+        background-color: bisque;
+        border: 1px solid black;
+        width: 100vw;
+        display: flex;
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row-reverse; */
+        flex-wrap: wrap;
+      }
+      .container div {
+        border: 1px solid black;
+        background-color: #f1f1f1;
+        width: 20vw;
+        height: 20vh;
+        margin: 2vw;
+      }
+
+      .font p {
+        font-size: 40px;
+        color: red;
+        font-style: italic;
+        font-family: "Courier New", Courier, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- display property -->
+    <!-- inline -->
+    <div class="blockToInline">block level to inline element</div>
+    <div class="blockToInline">block level to inline element</div>
+    <div class="blockToInline">block level to inline element</div>
+
+    <!-- block -->
+    <span class="inlineToBlock">inline element to block level</span>
+    <span class="inlineToBlock">inline element to block level</span>
+    <span class="inlineToBlock">inline element to block level</span>
+
+    <!-- inline-block -->
+    <span class="inlineToInlineBlock">inline to inline-block</span>
+    <span class="inlineToInlineBlock">inline to inline-block</span>
+    <span class="inlineToInlineBlock">inline to inline-block</span>
+
+    <!-- flex -->
+    <div class="container">
+      <div>div1</div>
+      <div>div2</div>
+      <div>div3</div>
+      <div>div4</div>
+      <div>div5</div>
+      <div>div6</div>
+      <div>div7</div>
+    </div>
+
+    <!-- font -->
+    <div class="font">
+      <p>Pranjal Gogoi</p>
+    </div>
+  </body>
+</html>
