@@ -1,0 +1,63 @@
+// import other scss file
+@import "./global.scss";
+
+// variables
+$red: rgb(104, 25, 25);
+$yellow: rgb(142, 142, 19);
+$pFontSize: 2vw;
+$stdMargin: 12px;
+$stdPadding: 15px;
+
+// mixin with parameters
+@mixin redAlert($padding, $margin) {
+  color: red;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 3vw;
+  padding: $padding;
+  margin: $margin;
+}
+
+// mixin calling with arguments
+.err {
+  @include redAlert(10px, 20px);
+  background-color: pink;
+  border: 2px solid #fff;
+}
+/* 
+body {
+  background-color: $red;
+  height: 100vh;
+} */
+
+.section-1 {
+  color: yellow;
+  font-size: $pFontSize;
+}
+
+.section-2 {
+  color: #fff;
+  font-size: $pFontSize;
+}
+
+.section-3 {
+  color: pink;
+  font-size: $pFontSize;
+}
+
+// operators
+.section-1,
+.section-2,
+.section-3 {
+  margin: 5px + $stdMargin;
+  padding: 20px - $stdPadding;
+}
+
+// nesting
+section {
+  border: 1px solid #fff;
+  h1 {
+    color: $yellow;
+    border: 1px solid $yellow;
+  }
+}
