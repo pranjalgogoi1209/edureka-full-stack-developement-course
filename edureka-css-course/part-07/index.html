@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        border: 1px solid black;
+        height: 200px;
+        width: 200px;
+        margin: 50px;
+      }
+      .box1 {
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+      .box2 {
+        position: absolute;
+        top: 20px;
+        left: 500px;
+      }
+      .box3a {
+        position: relative;
+      }
+      .box3b {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+      }
+      .box4 {
+        position: static;
+      }
+      .box5 {
+        position: fixed;
+        top: 100px;
+        left: 300px;
+      }
+      .box6 {
+        position: sticky;
+        top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box6">box6 => sticky</div>
+    <div class="box box1">box1 => relative</div>
+    <div class="box box5">box5 => fixed</div>
+    <div class="box box2">box2 => absolute</div>
+    <div class="box box3a">
+      box3a => relative
+      <div class="box box3b">box3b => absolute</div>
+    </div>
+    <div class="box box4">box4 => static</div>
+  </body>
+</html>
