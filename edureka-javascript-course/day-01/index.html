@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      document.write("hi i am script tag in head");
+    </script>
+  </head>
+  <body>
+    <hr />
+    <script src="app.js"></script>
+    <script>
+      document.write("hi i am script tag in body");
+
+      // variable
+      // global variable
+      var name = "pranjal gogoi";
+      var num = 999;
+      var bool = true;
+      var age = 30;
+
+      if (true) {
+        // local variable
+        var age = 24;
+        console.log(age);
+        // lexical scope
+        console.log(num);
+      }
+
+      // primitive data types
+      var a = 10; // number
+      var b = "string"; //string
+      var c = true; // boolean
+      var d; // undefined
+      var e = 434n; // bigInt
+
+      // symbol => any private obj
+      var mysym = Symbol("name");
+      var obj = {};
+      obj[name] = "hi";
+      console.log(obj[name]);
+
+      // check types
+      console.log(a, b, c, d, e);
+    </script>
+  </body>
+</html>
