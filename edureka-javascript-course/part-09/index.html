@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Class and Object
+    <script>
+      // classes and object
+      class Dog {
+        constructor(name, breed, weight, age) {
+          this.name = name;
+          this.breed = breed;
+          this.weight = weight;
+          this.age = age;
+        }
+
+        // method
+        bark() {
+          console.log(`${this.name} is barking`);
+        }
+
+        run() {
+          console.log(
+            `${this.name}'s weight is ${this.weight} and he is running`
+          );
+        }
+      }
+
+      const dog1 = new Dog("bully", "bull", "25 kg", 10);
+      const dog2 = new Dog("tiger", "golden retriver", "35 kg", 15);
+
+      console.log(dog1.name);
+      console.log(dog2.name);
+      console.log(dog1.bark());
+      console.log(dog2.run());
+
+      // extending Dog => inheritence
+      class Cat extends Dog {
+        constructor(name, age, weight) {
+          super(name, age, weight);
+        }
+
+        meow() {
+          console.log(`${this.name} is meowing, weight => ${this.weight}`);
+        }
+      }
+      const cat1 = new Cat("chiku", 5, 10);
+      cat1.bark();
+      cat1.meow();
+
+      //   prototypical inheritance
+
+      // date object
+      const date = new Date();
+      console.log(date.getDay());
+      console.log(date.getDate());
+      console.log(date.getMonth());
+      console.log(date.getFullYear());
+      console.log(date.getMinutes());
+      console.log(date.getHours());
+      console.log(date.getSeconds());
+
+      // math object
+      console.log(Math.sqrt(625));
+      console.log(Math.PI);
+    </script>
+  </body>
+</html>
