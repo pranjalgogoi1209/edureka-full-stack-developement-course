@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="myInput" placeholder="type here" />
+    <script>
+      // call method
+      var person = {
+        firstname: "pranjal",
+        lastname: "gogoi",
+        fullname: function (gender) {
+          console.log(gender);
+          return this.firstname + this.lastname;
+        },
+      };
+
+      let person1 = {
+        firstname: "upama",
+        lastname: "bora",
+      };
+
+      console.log(person.fullname("male"));
+      console.log(person.fullname.call(person1, "female"));
+
+      // apply method
+      console.log(person.fullname.apply(person1, ["female"]));
+
+      // bind
+      var later = person.fullname.bind();
+      later(person1, "male");
+
+      // event binding
+      const input = document.getElementById("myInput");
+      input.addEventListener("keypress", e => {
+        console.log(e.keyCode, e.key);
+        if (e.keyCode === 13) {
+          alert("key is been pressed");
+        }
+      });
+    </script>
+  </body>
+</html>
