@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // hiererical inheritance
+      class Animal {
+        constructor(name) {
+          this.name = name;
+        }
+        speak() {
+          console.log(`${this.name} make the sound`);
+        }
+      }
+
+      class dog extends Animal {
+        speak() {
+          console.log(`${this.name} is barking`);
+        }
+      }
+
+      class cat extends Animal {
+        speak() {
+          console.log(`${this.name} is meowing`);
+        }
+      }
+
+      const myDog = new dog("Tiger");
+      const myCat = new cat("Chiku");
+
+      // this is the example of polimorphism, single interface but different methods
+      myDog.speak();
+      myCat.speak();
+
+      // multi level inheritance
+      class vehicle {
+        constructor(year, model) {
+          this.year = year;
+          this.model = model;
+        }
+        start() {
+          console.log("engine started");
+        }
+      }
+
+      class car extends vehicle {
+        drive() {
+          console.log(`${this.model} is driving on the road`);
+        }
+      }
+
+      // here we extend car not vehicle
+      class electricCar extends car {
+        charge() {
+          console.log(`${this.model} is being charged`);
+        }
+      }
+
+      const myCar = new electricCar(2024, "Tesla");
+      myCar.start();
+      myCar.drive();
+      myCar.charge();
+      console.log(myCar.year);
+
+      // abstraction => inbuilt functions
+
+      // incapsulation
+      class bankAcc {
+        constructor(accNum, accHolder, balance) {
+          this.accNum = accNum;
+          this.accHolder = accHolder;
+          this.balance = balance;
+        }
+        deposit(amount) {
+          this.balance += amount;
+          console.log(`${amount} is deposited, new balance is ${this.balance}`);
+        }
+        withdraw(amount) {
+          if (this.balance >= amount) {
+            this.balance -= amount;
+            console.log(
+              `${amount} is withdrawn, new balance is ${this.balance}`
+            );
+          } else {
+            console.log("Insufficients funds");
+          }
+        }
+      }
+      const newAcc = new bankAcc("28736", "Pranjal Gogoi", 6000);
+
+      newAcc.deposit(5000);
+      newAcc.withdraw(8000);
+    </script>
+  </body>
+</html>
