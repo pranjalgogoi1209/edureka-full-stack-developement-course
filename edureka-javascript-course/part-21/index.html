@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="throttled">Click Me</button>
+    <script>
+      // throttling
+      function throttled(func, delay) {
+        let key = true;
+        return function () {
+          if (key) {
+            func();
+            key = false;
+            setTimeout(() => {
+              key = true;
+            }, delay);
+          }
+        };
+      }
+      function click() {
+        console.log("button is clicked");
+      }
+      const throttledClick = throttled(click, 1000);
+      const throttledButton = document.querySelector("#throttled");
+      throttledButton.addEventListener("click", throttledClick);
+
+      // async
+      // defer
+    </script>
+  </body>
+</html>
