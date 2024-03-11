@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input class="input" type="text" placeholder="Search" />
+    <script>
+      console.log("Time out started");
+
+      // non blocking nature => asynchronous
+      setTimeout(() => {
+        console.log("setTimeout");
+      }, 1000);
+      console.log("Time out ended");
+
+      // working of call stack
+      // LIFO => Last in first out
+
+      // debounce in javascript
+      // debounce is very important, so that api don't call everytime I press a key, it will reduce the chance of crash of browser.
+
+      const myDebounce = (func, delay) => {
+        let time;
+        return function () {
+          const context = this;
+          const arg = arguments;
+          clearTimeout(time);
+          time = setTimeout(() => {
+            func.apply(context, arg);
+          }, delay);
+        };
+      };
+
+      function perform() {
+        const searchItem = document.querySelector(".input").value;
+        console.log("performing function on", searchItem);
+      }
+
+      const debounce = myDebounce(perform, 500);
+
+      const searchInput = document.querySelector(".input");
+      searchInput.addEventListener("keyup", debounce);
+    </script>
+  </body>
+</html>
