@@ -1,4 +1,4 @@
-# DAY 3 OF EDUREKA COURSE (Wednesday, 17/01/2024) => 
+Edureka course day-03 (Html part-03, Wednesday, 10/01/2024)
 
     i. Extension tells us what kind of file it is.
     ii. html: hyper text markup language.
@@ -10,6 +10,3 @@
         * <html></html>: Root element of our page. It basically tells the browser that this whole code is containing html code.
         * <head></head>: It has description of the page.
         * <body></body>: It has content of the page.
-        
-
-
