@@ -1,1 +1,20 @@
 Edureka course day-02 (Html part-02, Tuesday, 09/01/2024)
+
+# Structure of a webpage with the help of Html.
+# Style the webpage with the help of Css & Bootstrap.
+# Make it functional with the help of Javascript.
+# Backend
+# Database
+
+# Website => Collection of webpages.
+# Html => Hyper text markup language.
+# Hypertext => Hypertext is something that helps us to link webpages which is also called hyperlinks.
+# Markup language => Markup language refers to the code or the tags that we use to create the structure for our page.
+
+# Syntax => Syntax is a way of writing code in any language by following the specific rule of that language.
+
+# Syntax of a tag in Html =>
+    <tagname> => Opening tag. 
+        Text present in between these tags will be visible on our webpage.
+    </tagname> => Closing tag.
+
