@@ -17,4 +17,3 @@ Edureka course day-02 (Html part-02, Tuesday, 09/01/2024)
     <tagname> => Opening tag. 
         Text present in between these tags will be visible on our webpage.
     </tagname> => Closing tag.
-
