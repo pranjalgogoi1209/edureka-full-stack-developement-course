@@ -1,46 +1,47 @@
-<html>
-  <head></head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
   <body>
-    <!-- select tag -->
-    Select your country:
-    <select name="racing">
-      <option value="usa">USA</option>
-      <option value="pakistan" disabled>PAKISTAN</option>
-      <option value="india" selected>INDIA</option>
-      <option value="chaina">CHAINA</option>
+    <!-- div tag -->
+    <!-- this tag is used to create divisions in our html page, creating different areas -->
+    <!-- div tag always starts from a new line => block level element -->
+    <!-- It takes the 100% width of the parent element -->
+    <div style="background-color: orange">
+      this is division area 1
+      <br />
+      this is new line
+      <div style="background-color: pink">
+        this a child div or sub area of division area 1
+      </div>
+    </div>
+    <!-- hidded element -->
+    <div style="background-color: skyblue" hidden>this is division area 2</div>
+    <div style="background-color: yellowgreen">this is division area 3</div>
+
+    <!-- span tag -->
+    <!-- It only takes the width of the content/text not the entire screen and this property of span tag makes it a inline element -->
+    Welcome to
+    <span style="background-color: lightgrey">
+      Edureka
+      <!-- style of parent span tag will not work in other children tag except span -->
+      <div style="color: red">(online learning platform)</div>
+      <span style="color: red">(online learning platform)</span>
+    </span>
+    thanks for enrolling in fswd.
+
+    <br />
+
+    <!-- dropdown => select tag and option tag-->
+    <select>
+      <option value="Noida">Noida</option>
+      <option value="Delhi" disabled>Delhi</option>
+      <option value="Mumbai" selected>Mumbai</option>
+      <option value="Kolkata">Kolkata</option>
+      <option value="Jaipur">Jaipur</option>
     </select>
-
-    <!-- input tag -->
-    <br />
-    Enter name:
-    <input type="text" placeholder="Enter your name..." />
-    <br />
-    Enter age:
-    <input type="number" placeholder="Enter your age..." />
-    <br />
-    Enter email:
-    <input type="email" placeholder="Enter your email..." />
-    <br />
-    Enter dob:
-    <input type="date" />
-    <br />
-    Male:
-    <input type="checkbox" checked />
-    <br />
-    Female:
-    <input type="radio" checked />
-    <br />
-    Password:
-    <input type="password" placeholder="Enter your password" />
-    <br />
-    Comments:
-    <textarea
-      cols="30"
-      rows="10"
-      placeholder="Enter your comments..."
-    ></textarea>
-
-    <button type="submit">Submit</button>
-    <input type="button" />
   </body>
 </html>
