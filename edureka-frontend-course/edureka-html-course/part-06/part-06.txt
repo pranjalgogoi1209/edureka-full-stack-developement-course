@@ -1,4 +1,4 @@
-# DAY 6 OF EDUREKA COURSE (MONDAY, 22/01/2024) => 
+Edureka course day-08 (Html part-06, Friday, 15/01/2024)
 
     i. In HTML 5, we have canvas tag and svg tag.
     ii. HTML 5 supports api.

@@ -1,4 +1,4 @@
-Edureka course day-04 (Html part-04, Thursday, 18/01/2024)
+Edureka course day-04 (Html part-04, Thursday, 11/01/2024)
 
 div => 
     i. It is a block elemnt.
