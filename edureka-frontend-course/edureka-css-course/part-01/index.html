@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        p{
-            background-color: orange;
-            color: #f1f1f1;
-        }
+      p {
+        background-color: orange;
+        color: #f1f1f1;
+      }
+      .box3 {
+        background-color: green;
+      }
+      h2 {
+        background-color: blue;
+      }
     </style>
     <!-- external css linking -->
-    <link rel="stylesheet" href="./styles.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- css is used to add style to our structure -->
+    <!-- there are three ways of using css in/with our index.html -->
+    <!-- 
+        inline css => The css code that we write with our tags using the style attribute is k/a inline css.
+        internal css => The css code that we write in our style tags inside our index.html file is k/a internal css.
+        external css => Writing css in diffrent file and linking that file to our index.html file is k/a external css.
+     -->
     <!-- inline css -->
     <h1 style="background-color: red; color: #f1f1f1">Inline css</h1>
     <p>Internal css</p>
-</body>
+
+    <!-- Selectors in css => These are values that we use to select an element in our css code, html elements we have "id" and "class" as their other identity attributes -->
+    <!-- identity, so for a html element it's id value will always be unique, no two html elements can have same id value -->
+
+    <div id="box1">this is box1 div tag</div>
+    <div id="box2">this is box1 div tag</div>
+
+    <!-- class => It helps us to identify the element but this value is not unique to a element, two or more elements can have same class -->
+
+    <div class="box3">this is box3 div tag</div>
+    <div class="box3">this is box4 div tag</div>
+
+    <!-- tag name selector -->
+    <h2>tag name selector</h2>
+  </body>
 </html>

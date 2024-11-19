@@ -1,4 +1,4 @@
-Edureka course day-02 (Html part-02, Tuesday, 09/01/2024)
+Edureka course day-02, class-02 (Html part-02, Tuesday, 09/01/2024)
 
 # Structure of a webpage with the help of Html.
 # Style the webpage with the help of Css & Bootstrap.
