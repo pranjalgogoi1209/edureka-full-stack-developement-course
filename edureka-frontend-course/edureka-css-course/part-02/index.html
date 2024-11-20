@@ -10,22 +10,58 @@
         color: blue;
       }
 
-      p {
-        color: red;
-      }
       #paraId {
-        color: green;
+        background-color: green;
       }
+
       .paraClass {
-        color: pink;
+        background-color: pink;
+      }
+
+      p {
+        background-color: red;
+      }
+
+      /* universal selector */
+      * {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 2rem;
+      }
+
+      /* grouping selector */
+      h1,
+      #paraId {
+        border: 4px;
+        border-color: red;
+        border-style: solid;
+      }
+
+      #logo {
+        height: 80px;
+        width: 80px;
+        font-size: 20px;
+        background-color: red;
+        color: white;
+        border-radius: 100%;
       }
     </style>
   </head>
   <body>
+    <!-- 
+      priority of selectors =>
+      id selector > class selector > element selector
+    -->
+
+    <!--
+      inline css > internal css > external css
+    -->
+
     <h1 style="color: red">Checking specificity</h1>
     <p id="paraId" class="paraClass">
       This is a paragraph with element selector style, id selector style and
       class selector style
     </p>
+
+    <div id="logo">Zomato</div>
   </body>
 </html>
