@@ -7,12 +7,14 @@
     <style>
       #bg {
         border: 1px solid black;
-        background: url("https://static.vecteezy.com/system/resources/previews/025/284/015/non_2x/close-up-growing-beautiful-forest-in-glass-ball-and-flying-butterflies-in-nature-outdoors-spring-season-concept-generative-ai-photo.jpg");
-        height: 50vh;
-        width: 50vw;
+        background: url("./bg.jpeg") no-repeat;
+        /* width: fit-content; */
+        width: 500px;
+        height: 500px;
         background-size: cover;
-        background-position: center;
+        /* background-position: center; */
         color: #f1f1f1;
+        font-size: 20px;
       }
       .commonDivClass {
         border: 1px solid black;
@@ -21,8 +23,22 @@
       }
       .div1 {
         background-color: red;
-        margin-top: 20px;
-        padding-top: 20px;
+        /* margin-top: 20px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+        margin-left: 20px; */
+        /* margin: 20px 40px 30px 20px; */
+        /* margin: 0 50px; */
+        /* margin: 50px 0; */
+        margin: 50px;
+        /* padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px; */
+        /* padding: 20px 30px 30px 20px; */
+        /* padding: 0 50px; */
+        /* padding: 50px 0; */
+        padding: 50px;
       }
       .div2 {
         background-color: blue;
@@ -54,6 +70,15 @@
         margin: 20px 0 40px;
         padding: 20px 0 40px;
       }
+      button {
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 50px;
+        background-color: aqua;
+        border: 0;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
     </style>
   </head>
   <body>
@@ -70,5 +95,7 @@
     <div class="commonDivClass div5">div</div>
     <div class="commonDivClass div6">div</div>
     <div class="commonDivClass div7">div</div>
+
+    <button>Click me</button>
   </body>
 </html>
