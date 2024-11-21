@@ -7,7 +7,7 @@
     <style>
       .blockToInline {
         display: inline;
-        background-color: orange;
+        background-color: green;
         border: 1px solid black;
         /* height and width wil not work bcz we change this to inline element */
         height: 10vw;
@@ -54,7 +54,12 @@
     </style>
   </head>
   <body>
-    <!-- display property -->
+    <!--
+    display property: block, inline, inline-block, none and flex
+    where does it start ?
+    how much width it takes ?
+    how the styles are applied ?
+    -->
     <!-- inline -->
     <div class="blockToInline">block level to inline element</div>
     <div class="blockToInline">block level to inline element</div>
@@ -85,5 +90,13 @@
     <div class="font">
       <p>Pranjal Gogoi</p>
     </div>
+
+    <p onclick="hideElement()" class="none">Display none</p>
+
+    <script>
+      function hideElement() {
+        document.querySelector(".none").style.display = "none";
+      }
+    </script>
   </body>
 </html>
