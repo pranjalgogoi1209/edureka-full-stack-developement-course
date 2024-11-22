@@ -5,41 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      /* font styling */
-      p {
-        text-align: center;
-        font-size: 50px;
-        font-weight: bold;
-        font-style: oblique;
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      body {
+        height: 2000px;
       }
 
-      /* for mobile */
-      @media all and (min-width: 320px) and (max-width: 480px) {
-        body {
-          background-color: #212121;
-          color: #f1f1f1;
-        }
+      .static {
+        position: static;
+        width: 100px;
+        height: 100px;
+        border: 1px solid red;
+        /* it will not work, because of static position */
+        /* 
+        top: 50px;
+        right: 50px;
+        left: 50px;
+        bottom: 50px;
+         */
       }
 
-      /* for tablet */
-      @media all and (min-width: 481px) and (max-width: 768px) {
-        body {
-          background-color: red;
-          color: #f1f1f1;
-        }
+      .relative {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border: 1px solid red;
+        /* css priotize top and left over bottom and right */
+        top: 50px;
+        right: 50px;
+        left: 50px;
+        bottom: 50px;
       }
 
-      /* print */
-      @media print {
-        body {
-          background-color: pink;
-          color: pink;
-        }
+      .absolute {
+        /* adding position absotute container goes out of the flow of the page */
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 1px solid red;
+        top: 100px;
+        right: 100px;
+        left: 400px;
+        bottom: 100px;
+      }
+
+      .fixed {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        border: 1px solid red;
+        top: 400px;
+        right: 100px;
+        left: 400px;
+        bottom: 100px;
+      }
+
+      .sticky {
+        position: sticky;
+        width: 100px;
+        height: 100px;
+        border: 1px solid red;
+        top: 0px;
+        right: 100px;
+        left: 300px;
+        bottom: 100px;
       }
     </style>
   </head>
   <body>
-    <p>Typography</p>
+    <!-- 
+      Position property in css => It allows us to position our element as per our choice, it has several values, static, relative, fixed, absolute and sticky;
+
+      1. static => element will be positioned as per the flow of the page and these eleements can't be positioned using left, right , top and bottom properties.
+
+      2. relative => position my element relative to its original position, 
+
+      3. absolute => This will remove the element out of the flow of the page.
+
+      4. fixed => Fixed property make our element as fixed on the page but we can still use the top left right and bottom properties.
+    -->
+
+    <div class="static">static div</div>
+
+    <div class="relative">relative div</div>
+
+    <div class="absolute">absolute div</div>
+
+    <div class="fixed">fixed div</div>
+
+    <div class="sticky">sticky</div>
   </body>
 </html>
