@@ -6,20 +6,24 @@
     <title>Document</title>
     <style>
       .container {
-        width: 100vw;
-        border: 1px solid black;
+        background-color: red;
+        height: 500px;
         display: flex;
+        flex-direction: row-reverse;
+        /* when flex-direction is row then justify content works along the horizontal axis and align items works along the vertical axis */
+        /* justify-content: center; */
         justify-content: space-evenly;
-        gap: 8vw;
+        align-items: center;
+        /* gap: 8vw; */
         flex-wrap: wrap;
       }
       .container .card {
-        border: 1px solid black;
+        background-color: white;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 200px;
-        height: 170px;
+        width: 330px;
+        /* height: 200px; */
       }
       .card .imgContainer {
         border: 1px solid black;
@@ -33,19 +37,20 @@
       .card .content {
         border: 1px solid black;
         display: flex;
+        /* when flex-direction is column, then justify content works along the vertical axis and align items works along the horizontal axis */
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         width: 50%;
         height: 100%;
       }
       .card .content h1 {
         border: 1px solid black;
-        font-size: 20px;
+        font-size: 30px;
       }
       .card .content p {
         border: 1px solid black;
-        font-size: 10px;
+        font-size: 13px;
       }
     </style>
   </head>
@@ -157,7 +162,7 @@
       </div>
 
       <!-- card -->
-      <div class="card">
+      <!-- <div class="card">
         <div class="imgContainer">
           <img
             src="https://th.bing.com/th/id/OIP.6fJfnp2vLjVefES1h3xGugHaE8?rs=1&pid=ImgDetMain"
@@ -172,10 +177,10 @@
             Voluptatem p
           </p>
         </div>
-      </div>
+      </div> -->
 
       <!-- card -->
-      <div class="card">
+      <!--  <div class="card">
         <div class="imgContainer">
           <img
             src="https://th.bing.com/th/id/OIP.6fJfnp2vLjVefES1h3xGugHaE8?rs=1&pid=ImgDetMain"
@@ -188,7 +193,7 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores re
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </body>
 </html>
