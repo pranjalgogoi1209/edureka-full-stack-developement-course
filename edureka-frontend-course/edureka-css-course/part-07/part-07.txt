@@ -1,1 +1,12 @@
-Edureka course day-14 (css part-07, Friday, 02/02/2024)
+Edureka course day-18, class-14 (Css-07, Thursday, 25/01/2024)
+
+* z-index => The element with larger z-index value overlaps others elements or is at the top of them. 
+
+
+| y axis
+|   / z axis
+|  /
+| /
+|/______________ x axis
+
+* grid => 
