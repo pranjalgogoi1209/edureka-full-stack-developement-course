@@ -1,0 +1,21 @@
+Edureka course day-19, class-15 (Saas-01, Friday, 26/01/2024)
+
+SAAS => Syntactically awesome stylesheets, it is an extension of css which adds more powerfull features and functionalities to our css.
+
+saas files => compiled into => standard / normal css files => used by browsers to apply styles on our page.
+
+exptention => 
+    new => .scss
+    old => .sass
+
+Features of sass =>
+    Operators, Variables , Nesting, Mixins, Parameters and Partials
+
+* variable => Variables are like containers that we use to store values in them. The variables have name [container in memeory] and we are giving it a name, lets say it is x [store some value] with name of (x).
+
+[sugar jar] = sugar
+
+let x = 2;
+
+$variable_name : value;
+

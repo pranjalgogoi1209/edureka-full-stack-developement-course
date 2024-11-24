@@ -1,5 +1,0 @@
-Edureka course day-13 (sass part-01, Thursday, 01/02/2024)
-
-Features of sass =>
-
-    Operators, Variables , Nesting, Mixins, Parameters and Partials

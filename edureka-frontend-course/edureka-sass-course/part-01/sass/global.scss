@@ -1,0 +1,15 @@
+$main-color: red;
+$text-size: 24px;
+
+.box1 {
+  background-color: $main-color;
+  height: 100px;
+  width: 100px;
+  font-size: $text-size;
+}
+
+.box2 {
+  // text size is decreased by 20%;
+  font-size: $text-size * 0.8;
+  color: if($text-size>24px, $main-color, black);
+}
