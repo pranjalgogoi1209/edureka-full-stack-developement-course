@@ -1,0 +1,23 @@
+.box1 {
+  background-color: pink;
+  color: black;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.box2 {
+  background-color: orange;
+}
+.box2 #p1 {
+  color: yellow;
+}
+.box2 #p2 {
+  color: red;
+}
+.box2 #p3 {
+  color: black;
+}
+.box2 #p4 {
+  color: blue;
+}
+/*# sourceMappingURL=global.css.map */

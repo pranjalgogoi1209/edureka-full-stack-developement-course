@@ -1,0 +1,35 @@
+$main-color: orange;
+$normal-size: 50px;
+
+.box1 {
+  background-color: pink;
+  // when I want to check equality, I use == comparision operator
+  color: if($main-color == red, $main-color, black);
+  padding: if($normal-size>40px, 10px, 20px);
+  //   font-size: if($main-color == red and $normal-size>40px, 40px, 15px);
+  font-size: if($main-color == red or $normal-size>40px, 40px, 15px);
+}
+
+// it will take this scss code and it will convert it into multiple css files.
+
+// operators
+// and => both the conditions are true then and is true , otherwise false
+// or => even if one condition is true then the or => true, false => both the conditions need to be false.
+
+// nesting
+
+.box2 {
+  background-color: $main-color;
+  #p1 {
+    color: yellow;
+  }
+  #p2 {
+    color: red;
+  }
+  #p3 {
+    color: if($main-color != orange, $main-color, black);
+  }
+  #p4 {
+    color: blue;
+  }
+}

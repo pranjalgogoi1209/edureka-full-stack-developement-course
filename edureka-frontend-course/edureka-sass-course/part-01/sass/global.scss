@@ -1,3 +1,5 @@
+// it will take this scss code and it will convert it into multiple css files,
+
 $main-color: red;
 $text-size: 24px;
 
@@ -11,5 +13,5 @@ $text-size: 24px;
 .box2 {
   // text size is decreased by 20%;
   font-size: $text-size * 0.8;
-  color: if($text-size>24px, $main-color, black);
+  color: if($text-size>23px, $main-color, black);
 }
