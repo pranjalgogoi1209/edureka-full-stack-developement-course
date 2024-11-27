@@ -1,0 +1,17 @@
+Edureka course day-24, class-17 (Saas-03, Wednesday, 31/01/2024)
+
+// mixin: These are chunks of css code that we can include in our sass code. They help us to by providing features such as modularity, reusability, and maintainability.
+
+ele1{
+    // css code
+}
+
+ele2{
+    // css code
+    // some other css as well
+}
+
+ele3{
+    // css code
+    // some other css as well
+}

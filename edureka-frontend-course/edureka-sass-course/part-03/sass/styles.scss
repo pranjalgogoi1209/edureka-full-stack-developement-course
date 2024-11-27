@@ -1,0 +1,58 @@
+$main-color: skyblue;
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: if($main-color == red, $main-color, black);
+  color: if($main-color== black, white, $main-color);
+}
+
+// how to create mixin ?
+
+@mixin myDesign {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.box2 {
+  @include myDesign();
+  font-size: 20px;
+  color: white;
+}
+
+// mixin with parameters => parameters are values that we pass to our mixin to use.
+
+@mixin myDesignPara($bgColor, $height, $width) {
+  background-color: $bgColor;
+  height: $height;
+  width: $width;
+}
+
+.box3 {
+  @include myDesignPara(blue, 200px, 200px);
+}
+
+.box4 {
+  @include myDesignPara(gray, 400px, 400px);
+}
+
+// create a mixin to style 3 button such that they have different background color, height and width, color and padding.
+
+@mixin myDesignButton($bgColor, $height, $width, $color, $padding) {
+  background-color: $bgColor;
+  height: $height;
+  width: $width;
+  color: $color;
+  padding: $padding;
+}
+
+.btn1 {
+  @include myDesignButton(red, 100px, 600px, white, 5px);
+}
+.btn2 {
+  @include myDesignButton(pink, 50px, 500px, black, 5px);
+}
+.btn3 {
+  @include myDesignButton(green, 70px, 400px, white, 6px);
+}
