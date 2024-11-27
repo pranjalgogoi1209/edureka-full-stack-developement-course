@@ -1,0 +1,11 @@
+$normal-height: 200px;
+
+@function calculateWidth($value) {
+  @return $value * 5;
+}
+
+.box1 {
+  height: $normal-height;
+  width: calculateWidth($normal-height);
+  background-color: pink;
+}

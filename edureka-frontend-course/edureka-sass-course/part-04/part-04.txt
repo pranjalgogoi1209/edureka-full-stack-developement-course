@@ -1,0 +1,19 @@
+Edureka course day-25, class-18 (Saas-04, Thursday, 01/02/2024)
+
+// functions in sass :- It is a chunk/block of code that is designed to perform a particular task
+
+// how to create a function in sass =>
+
+@function calculateLength($len1, $len2) {
+    // a function is sass returns a single value
+    @return $len1 + $len2;
+}
+
+# BOOTSTRAP =>
+
+we are trying to make our page responsive, that means the page has the ability to adjust its design based on different screen sizes and devices
+
+we use bootstrap to make our website responsive.
+
+bootstra: - It is a framework in css that we can use in our project to make our elements responsive and styled as per our need.
+
