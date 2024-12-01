@@ -3,37 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>
+      Edureka course day-29, class-20 (Bootstrap-02, Monday, 05/02/2024)
+    </title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     />
-    <style>
-      #one {
-        background-color: red;
-        height: 100px;
-      }
-      #two {
-        background-color: orange;
-        height: 100px;
-      }
-      #three {
-        background-color: blue;
-        height: 100px;
-      }
-      #four {
-        background-color: green;
-        height: 100px;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Edureka</a>
+        <div class="row">
+          <div class="col-lg-2">
+            <a class="navbar-brand" href="#">Flipkart</a>
+          </div>
+          <div
+            class="collapse navbar-collapse col-lg-10"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
 
-        <!-- mobile responsive navbar -->
+        <!-- hamburger -->
         <button
           class="navbar-toggler"
           type="button"
@@ -45,126 +80,22 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                AI SOLUTIONS
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">AI PHOTO BOOTH</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">AI GROUP PHOTO BOOTH</a>
-                </li>
-                <!-- <li><hr class="dropdown-divider" /></li> -->
-                <li>
-                  <a class="dropdown-item" href="#">AI VIDEO BOOTH</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
       </div>
     </nav>
 
-    <!-- grid -->
+    <!-- responsiveness -->
     <div class="container-fluid">
-      <!-- it is responsive for lg size, max-width: 991px -->
       <div class="row">
-        <div class="col-lg-3" id="one">one</div>
-        <div class="col-lg-3" id="two">two</div>
-        <div class="col-lg-3" id="three">two</div>
-        <div class="col-lg-3" id="four">two</div>
+        <div class="col-lg-3 col-md-6 col-sm-12 bg-primary">1</div>
+        <div class="col-lg-3 col-md-6 col-sm-12 bg-primary">2</div>
+        <div class="col-lg-3 col-md-6 col-sm-12 bg-primary">3</div>
+        <div class="col-lg-3 col-md-6 col-sm-12 bg-primary">4</div>
       </div>
-
-      <div class="row">
-        <div class="col-lg-6" id="one">one</div>
-        <div class="col-lg-6" id="two">two</div>
-        <div class="col-lg-6" id="three">two</div>
-        <div class="col-lg-6" id="four">two</div>
-      </div>
-
-      <!-- it is not responsive -->
-      <!--  <div class="row">
-        <div class="col-3" id="one">one</div>
-        <div class="col-3" id="two">two</div>
-        <div class="col-3" id="three">two</div>
-        <div class="col-3" id="four">two</div>
-      </div> -->
     </div>
 
     <!-- btns -->
     <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-    <button type="button" class="btn btn-link">Link</button>
-
-    <button type="button" class="btn btn-outline-primary">Primary</button>
-    <button type="button" class="btn btn-outline-secondary">Secondary</button>
-    <button type="button" class="btn btn-outline-success">Success</button>
     <button type="button" class="btn btn-outline-danger">Danger</button>
-    <button type="button" class="btn btn-outline-warning">Warning</button>
-    <button type="button" class="btn btn-outline-info">Info</button>
-    <button type="button" class="btn btn-outline-light">Light</button>
-    <button type="button" class="btn btn-outline-dark">Dark</button>
-
-    <!-- typography -->
-    <p class="h1">h1. Bootstrap heading</p>
-    <p class="h2">h2. Bootstrap heading</p>
-    <p class="h3">h3. Bootstrap heading</p>
-    <p class="h4">h4. Bootstrap heading</p>
-    <p class="h5">h5. Bootstrap heading</p>
-    <p class="h6">h6. Bootstrap heading</p>
-
-    <h1 class="display-1 text-center">Display 1</h1>
-    <h1 class="display-2">Display 2</h1>
-    <h1 class="display-3">Display 3</h1>
-    <h1 class="display-4">Display 4</h1>
-    <h1 class="display-5">Display 5</h1>
-    <h1 class="display-6">Display 6</h1>
-
-    <p class="lead">
-      This is a lead paragraph. It stands out from regular paragraphs.
-    </p>
-
-    <!-- image -->
-    <img
-      src="https://th.bing.com/th/id/OIP.b1z1iAsqFjUwRXVGtfbn3QHaEK?rs=1&pid=ImgDetMain"
-      alt="lion"
-      class="img-fluid img-thumbnail rounded text-center"
-    />
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>

@@ -1,1 +1,6 @@
-Edureka course day-16 (bootstrap part-02, Tuesday, 06/02/2024)
+Edureka course day-29, class-20 (Bootstrap-02, Monday, 05/02/2024)
+
+xs => screen with size less than 576px => phone (0-576)
+sm => screen equal to or greather 576px => tablets (576 - 768)
+md => screen sizes equal to or greater than 768pm => laptops (768 - 1200)
+lg => screen sizes greater than or equal to 1200px => desktop (1200 - infinite)

@@ -1,1 +1,22 @@
-Edureka course day-15 (bootstrap part-01, Monday, 05/02/2024)
+Edureka course day-26, class-19 (Bootstrap-01, Friday, 02/02/2024)
+
+# BOOTSTRAP =>
+
+we are trying to make our page responsive, that means the page has the ability to adjust its design based on different screen sizes and devices
+
+we use bootstrap to make our website responsive.
+
+bootstrap: - It is a framework in css that we can use in our project to make our elements responsive and styled as per our need.
+
+With bootstrap we have classes, which we can add to our tag and bootstrrap will automatically style the tag.
+
+containers => they are the layout options that helps us to store our content.
+
+div => h1, span, button
+
+to use bootstrap containers => we have two classes => container and container-fluid
+
+bootstrap grid => rows and columns, every bootstrap row can have a maximum of 12 cols
+ 
+width of the columns : col-1 this means it is going to take 1/12 part of our entire row.
+
