@@ -1,0 +1,7 @@
+Edureka course day-32, class-23 (Bootstrap-05, Thursday, 08/02/2024)
+
+# Carousel => A slideshow component which helps us to cycle through different part of a presentation.
+
+* Container to contain everything in Carousel
+* Inner section => components/content => slideshow
+* Controls => button tag => span tag
