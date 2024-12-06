@@ -1,1 +1,36 @@
-Edureka course day-21 (javascript part-04, Tuesday, 13/02/2024)
+Edureka course day-43, class-30 (Javascript-04, Monday, 19/02/2024)
+
+# Datatypes => 
+
+The process of creating any variable and assigning it a value is known as defining the variable and the variable is known as defined variable.
+
+* Premitive datatypes =>
+    i. number => It is used to represent numeric values like integers or decimal/floatin-point numbers.
+    eg: 1, 2, 3, 4, -1, -2, -3, 1.0, 2.99
+    keyword variableName = valueOfVariable;
+    var/let age = 30;
+
+    ii. string => It represents sequence of characters enclosed in single or double quotes.
+    eg: "pranjal", 'gogoi'
+    keyword variableName = valueOfVariable
+    var/let student = "Pranjal Gogoi"
+
+    iii. boolean => represent true/false values.
+    eg: true, false
+    var isLoggedIn = true;
+    var isLoggedIn = false;
+
+    iv. undefined => An undefined variable is the one where it has been created but not assigned any value.
+    eg: var variableName;
+    let num;
+
+    v. null => null is a value that represents or amounts to nothing.
+    keyword variableName = null;
+    let/var value = null;
+
+    vi. bigIng => Integers will fall beyong the range of number datatype.
+    eg: 123456890676328
+    var/let bigNumber = 123437530957820809n
+
+# typeof => which we use to check datatype of our variable.
+eg: console.log(typeof variableName)

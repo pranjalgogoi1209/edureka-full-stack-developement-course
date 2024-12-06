@@ -1,53 +1,64 @@
-// object
-let obj = {
-  key: "value",
-  name: "pranjal gogoi",
-};
+// defining variables
 
-console.log(obj);
-console.log(obj.key);
-console.log(obj["name"]);
+var question = "what is your name?";
+var answer = "my name is ankit";
+var scors = 100;
 
-// array
-let arr = [1, 22, 33, 44];
-console.log(arr[2]);
+// defining variables with different methods
 
-// function
-function carwash(size) {
-  if (size === "xxl") {
-    return 1440;
-  } else if (size === "xl") {
-    return 1024;
-  } else if (size == "l") {
-    return 991;
+// var
+
+// var can be redeclared and can be updated
+
+var name = "ankit";
+let age = 21;
+const isMarried = false;
+
+// var has function scope and global scope
+
+// var defined in if block is accessible outside that if block but var defined in function is not accessible outside the function, that's why var is called functional scope.
+
+// var defined in global scope is called global scope and accessible everywhere.
+
+var x = 25;
+
+function myFunc() {
+  var x = 50;
+  console.log(x);
+  if (x == 50) {
+    var age = 100;
   }
+  console.log("age=>", age);
 }
 
-console.log(carwash("xxl"));
-console.log(carwash("xl"));
-console.log(carwash("l"));
+myFunc();
+console.log(x);
 
 // let
 
-{
-  let name = "pranjal";
-  console.log(name);
+// let cann't be redeclared but can be updated.
+
+// let defined in block scope is accessible only inside that block.
+
+// let defined in global scope is also accessible outside that block.
+
+// unlike var, let doesnot hoist the variable
+
+function carFunc() {
+  if (true) {
+    let name = "honda";
+  }
+
+  //   console.log(name);
 }
-// let is block scope, we cann't call it outside the block, also we cann't redeclre it, but we can update it.
+
+carFunc();
 // console.log(name);
 
-// const
-{
-  const nameCompany = "edureka";
-  console.log(nameCompany);
-}
-// const is block scope, we cann't call it outside the block, also we cann't redeclre it, also we cannot update it, it is a constant.
-// console.log(nameCompany);
+// cost =>
 
-// hoisting
+// A constant is a variable whose value cannot be changed.
 
-// internally defination of hoisting variable goes on top, application if variable is created using var keyword
-
-console.log(hoisting);
-var hoisting = true; // undefined
-// let hoisting = true; // error
+// const is block scope and also cannot be redeclared.
+const nameCompany = "edureka";
+console.log(nameCompany);
