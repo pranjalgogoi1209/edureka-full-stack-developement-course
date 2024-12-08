@@ -1,1 +1,6 @@
-Edureka course day-22 (javascript part-05, Wednesday, 14/02/2024)
+Edureka course day-44, class-31 (Javascript-05, Tuesday, 20/02/2024)
+
+
+# Types of operators =>
+
+    * arithmetic operators => Used in arithmetic operations. add(+), sub(-), multi(*), div(/), modulus(%), increment(++) and decrement(--)

@@ -1,8 +1,58 @@
 Edureka course day-40, class-29 (Javascript-03, Friday, 16/02/2024)
 
+# JAVASCRIPT variables has two scopes => 
 
+    * Global variables => A global variable has a global scope, which means it is not defined locally (i.e., whithin any function or block of code) and can be accessed anywhere in your javascript code.
 
+    * Local variables => A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.
+
+    * Lexical scoping => Visibility of a global variable in the local scope is called lexical scoping.
+    Lexical scope means that where you write a variable in your code decides where it can be accessed. A function can use variables from its own scope and the scopes around it (where it was written), no matter where the function is called later.
+    In short: A variable's accessibility depends on where it is defined in the code.
+    eg: 
+    function outerFunction() {
+        const outerVar = "I am from outerFunction";
+        function innerFunction() {
+            console.log(outerVar); // Can access 'outerVar' because of lexical scope
+        }
+        innerFunction();
+    }
+    outerFunction();
+// Output: I am from outerFunction
+
+Explanation
+The variable outerVar is defined in outerFunction.
+The innerFunction is written (defined) inside outerFunction, so it can access outerVar due to lexical scope.
+It doesn’t matter where innerFunction is called. It will always have access to outerVar because it "remembers" where it was defined in the code.
 
 
 # console.log() => In order to print something in javascript we can use console.log().
 eg: => console.log("The message we want to print")
+
+
+# Data types => 
+
+    * Premitive data types => These are immutable (cannot be changed) and represent single values.
+        i. Number
+        ii. String
+        iii. Boolean
+        iv. Undefined
+        v. null
+        vi. Symbol
+        vii. BigInt
+
+    * Refenrence data types => These are mutable and can hold collections or more complex values.
+        i. Array
+        ii. Function
+        iii. Object
+
+# Hoisting in Javascript => 
+    i. Hoisting is a mechanism of javascript which allows variables and functions to be used before they are even declared.
+
+    ii. The declaration of variables and functions are moved to the top of the scope, before the execution.
+
+    iii. Whether the scope of the declarations is global, or local, they will always be moved to the top of their scope.
+
+    iv. Initializations will not be hoisted to the top.
+
+    
