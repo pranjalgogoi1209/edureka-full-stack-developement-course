@@ -1,1 +1,31 @@
-Edureka course day-23 (javascript part-06, Thursday, 15/02/2024)
+Edureka course day-45, class-32 (Javascript-06, Wednesday, 21/02/2024)
+
+# Logical operators => 
+
+    &&, || , !
+
+* st1 && st2 => if both are true then only overall true output otherwise false.
+
+st1 - t and st2 - f => false
+st1 - f and st1 - t => false
+st1 - f and st2 - f => false
+st1 - t and st2 - t => true
+
+* st1 || st2 => if both are false only overall output as false other true.
+
+st1 - t or st2 - f => true
+st1 - f or st2 - t => true
+st1 - f or st2 - f => false
+st1 - t or st2 - t => true
+
+* !true => this converts true to false and false to true.
+
+* !=
+
+
+# Conditional statements =>
+
+    * if statement
+    * if else statement
+    * else if statement
+    * switch statement
