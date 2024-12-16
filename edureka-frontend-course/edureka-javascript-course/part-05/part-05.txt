@@ -4,3 +4,27 @@ Edureka course day-44, class-31 (Javascript-05, Tuesday, 20/02/2024)
 # Types of operators =>
 
     * arithmetic operators => Used in arithmetic operations. add(+), sub(-), multi(*), div(/), modulus(%), increment(++) and decrement(--)
+
+# Assignment operators : used to assign values to variables.
+    =  assigning the value.
+    += It is used to increment the value and assign to itself only
+        a = 3 
+        a+=1 => a = a + 1
+
+    -= Decrement and assign to itself
+    *= Multiply and assign to itself
+    /= Divide and assign to itself
+    %= Take the modulo and assign to itself
+
+# Comparison operators =>
+
+    compare between variables.
+
+    == Equality of value.
+    === Equality of value along with datatype.
+    != Whether it is equal to or not.
+    !=== Whether it is equal to or not and dataype checked as well.
+    >
+    <
+    >=
+    <=
