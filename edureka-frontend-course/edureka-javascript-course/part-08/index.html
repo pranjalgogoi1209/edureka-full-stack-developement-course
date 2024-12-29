@@ -3,46 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>
+      Edureka course day-47, class-34 (Javascript-08, Friday, 23/02/2024)
+    </title>
   </head>
   <body>
-    <script>
-      // reduce
-      const num = [23, 34, 75, 45, 56];
-      const max = num.reduce((acc, curr) => {
-        return acc > curr ? acc : curr;
-      }, 23);
-      console.log(max);
-
-      // sort
-      // positive return decending, negetive return accending
-      console.log(num.sort((a, b) => a + b));
-
-      // index of
-      if (num.indexOf(45) !== -1) {
-        console.log("present");
-      } else {
-        console.log("not present");
-      }
-
-      // concat
-      const arr1 = [1, 2, 3];
-      const arr2 = [4, 5, 6];
-      console.log(arr1.concat(arr2));
-
-      // isArray
-      console.log(Array.isArray(arr1));
-
-      // slice in array
-      console.log(arr1.slice(0, 2));
-
-      // splice
-      const arr3 = [1, 2, 3, 4, 5, 6];
-      // index, no. of items to be delete, add elements
-      arr3.splice(1, 1, "two");
-      console.log(arr3);
-
-      // classes in javascript
-    </script>
+    <h1>Click on the button</h1>
+    <button onclick="alertFunc(2024)" id="btn">Alert Button</button>
+    <script src="./app.js"></script>
   </body>
 </html>

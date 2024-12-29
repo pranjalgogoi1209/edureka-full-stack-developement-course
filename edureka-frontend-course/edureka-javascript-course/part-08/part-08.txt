@@ -1,1 +1,7 @@
-Edureka course day-25 (javascript part-08, Monday, 19/02/2024)
+Edureka course day-47, class-34 (Javascript-08, Friday, 23/02/2024)
+
+# function => we can take this entire code block and give it a name and whatever we want to use this code block we can just use the name.
+    syntax =>
+        function myFunc(){
+            ...lines of code
+        }
