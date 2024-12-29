@@ -1,1 +1,23 @@
-Edureka course day-24 (javascript part-07, Friday, 16/02/2024)
+Edureka course day-46, class-33 (Javascript-07, Thursday, 22/02/2024)
+
+# Loops => We use these concepts to run a particular code multiple times.
+
+* for loop => It is used to perform/run a code specific number of times and we kind of specify that number.
+    syntax => 
+        for(initialization of variable; condition; increment/decrement of variable){
+            ...lines of code
+        }
+* while loop => It used to perform a task multiple times as long as the condition holds true.
+    syntax =>
+        while(condition){
+            ...lines of code
+        }
+
+* do while loop =>
+    syntax => 
+        do{
+            ...lines of code
+        }while(condition)
+        
+* for in loop
+* for of loop
