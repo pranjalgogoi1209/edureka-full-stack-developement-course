@@ -3,69 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>
+      Edureka course day-50, class-35 (Javascript-09, Monday, 26/02/2024)
+    </title>
   </head>
   <body>
-    Class and Object
-    <script>
-      // classes and object
-      class Dog {
-        constructor(name, breed, weight, age) {
-          this.name = name;
-          this.breed = breed;
-          this.weight = weight;
-          this.age = age;
-        }
+    <!-- output methods/functions in javascript -->
 
-        // method
-        bark() {
-          console.log(`${this.name} is barking`);
-        }
+    <h1 id="heading">Hi,</h1>
+    <button onclick="updateDom('Pranjal')">Welcome Pranjal</button>
+    <button onclick="updateDom('Rahul')">Welcome Rahul</button>
+    <button onclick="writeToDom()">Document Write</button>
+    <button onclick="alertMessage()">Alert Message</button>
+    <button onclick="consoleLog()">consoleLog</button>
 
-        run() {
-          console.log(
-            `${this.name}'s weight is ${this.weight} and he is running`
-          );
-        }
-      }
+    <!-- input  methods/functions in javascript -->
 
-      const dog1 = new Dog("bully", "bull", "25 kg", 10);
-      const dog2 = new Dog("tiger", "golden retriver", "35 kg", 15);
+    <h1>Enter your name: <span id="name" style="color: red"></span></h1>
+    <button onclick="promptMessage()">Enter</button>
 
-      console.log(dog1.name);
-      console.log(dog2.name);
-      console.log(dog1.bark());
-      console.log(dog2.run());
-
-      // extending Dog => inheritence
-      class Cat extends Dog {
-        constructor(name, age, weight) {
-          super(name, age, weight);
-        }
-
-        meow() {
-          console.log(`${this.name} is meowing, weight => ${this.weight}`);
-        }
-      }
-      const cat1 = new Cat("chiku", 5, 10);
-      cat1.bark();
-      cat1.meow();
-
-      //   prototypical inheritance
-
-      // date object
-      const date = new Date();
-      console.log(date.getDay());
-      console.log(date.getDate());
-      console.log(date.getMonth());
-      console.log(date.getFullYear());
-      console.log(date.getMinutes());
-      console.log(date.getHours());
-      console.log(date.getSeconds());
-
-      // math object
-      console.log(Math.sqrt(625));
-      console.log(Math.PI);
-    </script>
+    <h1>Do you want to proceed further ?</h1>
+    <button onclick="confirmMessage()">Confirmation</button>
+    <h2 id="result" style="color: green"></h2>
+    <script src="./app.js"></script>
   </body>
 </html>

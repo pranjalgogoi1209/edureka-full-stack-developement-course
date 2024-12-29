@@ -1,1 +1,11 @@
-Edureka course day-26 (javascript part-09, Tuesday, 20/02/2024)
+Edureka course day-50, class-35 (Javascript-09, Monday, 26/02/2024)
+
+# output methods/functions in javascript =>
+
+* innerHTML => It is all the html including text and tag is present inside an element.
+    <p>hello welcome <span>edureka</span></p>
+    => innderHTML of p tag => hello welcome <span>edureka</span>
+
+    In order to select elements in javascript, we have functions like 
+    => getElementById("id of the element you want select") => It helps us to select the element with given id.    
+
