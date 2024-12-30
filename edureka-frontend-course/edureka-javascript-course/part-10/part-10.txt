@@ -1,2 +1,15 @@
-Edureka course day-27 (javascript part-10, Wednesday, 21/02/2024)
+Edureka course day-51, class-36 (Javascript-10, Tuesday, 27/02/2024)
 
+# index => 
+    * In programming we start counting from 0
+    * Position is also known as index
+
+# charAt =>
+    This method takes index of the character and returns it.
+
+# slice(startIndex, endIndex) => 
+    * This method is used to cutout/slice a part of a string, but the endIndex is exclusive, i.e we don't cut the character present at end index.
+    * endIndex-1 => is inclusive
+
+# concat => 
+    * Take the string as a parameter and adds to the back of given string.
