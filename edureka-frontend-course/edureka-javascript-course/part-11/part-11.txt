@@ -1,2 +1,23 @@
-Edureka course day-28 (javascript part-11, Thursday, 22/02/2024)
+Edureka course day-52, class-37 (Javascript-11, Wednesday, 28/02/2024)
 
+# Array => Array is a collection of elements (numbers, strings, objects) stored in a sequence and every member of this array has a position and we call it index and it starts from 0.
+syntax =>
+    var/let arrayName = [1,2,3,4,5]
+    var/let arrayName = ["anurag", "lucky", "yoniwo", "wahid", "tanisha"]
+    index             =     0         1         2        3         4
+
+
+* To access array element =>
+    arrayName[indexOfElement]
+    arrayName[0]
+
+* We can add different types of data in an array
+    const arrayName = [10, "pranjal", true]
+
+# sort() => The process of arranging items/elements of an array in a particular order (asscending order or descending order) is known as sorting the array. 
+syntax => 
+    arrayName.sort()
+
+# push(element) => It is used to add elements at the back of our array.
+
+# unshift(element) => It is used to add elements at the front of our array.
