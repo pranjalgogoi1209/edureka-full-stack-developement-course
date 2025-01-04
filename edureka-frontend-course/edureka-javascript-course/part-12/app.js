@@ -37,9 +37,13 @@ console.log(newArr);
 
 // forEach => It is used to iterate over an array.
 let arr6 = [1, 2, 3, 4, 5];
-arr6.forEach((element) => {
+arr6.forEach((element, idx, array) => {
+  if (idx === 2) {
+    array[idx] = 10;
+  }
   console.log(element);
 });
+console.log(arr6, "after changing foreach");
 
 console.log("***************");
 
