@@ -1,5 +1,6 @@
-// find method => It is used to find an element in an array.
+// Edureka course day-54, class-39 (Javascript-13, Friday, 01/03/2024)
 
+// find method => It is used to find an element in an array.
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(arr);
 let result = arr.find((element) => {

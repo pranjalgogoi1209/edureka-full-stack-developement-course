@@ -1,1 +1,13 @@
-Edureka course day-31 (javascript part-14, Tuesday, 27/02/2024)
+Edureka course day-57, class-40 (Javascript-14, Monday, 04/03/2024)
+
+# Object oriented programming => Any real world entity/ thing. eg: vehicles(cars, buses), ball, books.
+
+# Object =>
+    * Object will have feature : ball => color, share => sphere, type, radius, weight, volume.
+    * Car is an object => no of seats, model, color, type of engines, top speed.
+    * Design it => use th design to manifacture it in the industry => ready to use.
+    
+# Class => 
+    * In order to create objects we need a blueprint and when it comes to programming our blueprint is knows as class.
+    * It contains all of its features/create objects.
+    * Design it => We will configure, a blue print will be created : It will be used to manifacture the car.

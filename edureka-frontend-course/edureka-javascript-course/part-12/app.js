@@ -80,6 +80,13 @@ console.log("***************");
 
 // sort => It is used to sort an array.
 let arr12 = [1, 2, 3, 4, 5];
+
+// It will work as it's default behaviour,
+// i.e it will sort the array in asscending order
+// it works in single digit numbers array
+// converts => numbers to strings, string are compared on unicode values
+// arr12.sort();
+
 let arr13 = arr12.sort((a, b) => {
   console.log(a, b);
   return a - b;
