@@ -1,1 +1,5 @@
-Edureka course day-34 (javascript part-17, Friday, 01/03/2024)
+Edureka course day-60, class-43 (Javascript-17, Thursday, 07/03/2024)
+
+# Document object model (DOM) : Whenever a webpage is loaded on our browser, the browser creates a tree like structure of our page, and that structure is knows as DOM.
+
+    * It represents the hierarchy of html elements or the order in which they are present in our page.

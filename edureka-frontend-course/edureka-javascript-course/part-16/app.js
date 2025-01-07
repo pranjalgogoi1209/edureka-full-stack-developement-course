@@ -1,3 +1,5 @@
+// Edureka course day-59, class-42 (Javascript-16, Wednesday, 06/03/2024)
+
 // date object
 const now = new Date();
 console.log(now);

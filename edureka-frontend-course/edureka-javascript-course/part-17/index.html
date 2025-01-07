@@ -3,30 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>
+      Edureka course day-60, class-43 (Javascript-17, Thursday, 07/03/2024)
+    </title>
   </head>
   <body>
-    <script>
-      // fetch
-      fetch("https://jsonplaceholder.typicode.com/todos", {
-        method: "GET",
-      })
-        .then(res => res.json())
-        .then(data => {
-          console.log("before debugger");
-          // debugger pause execution
-          //   debugger;
-          console.log(data);
-        })
-        .catch(err => {
-          console.log(err);
-        });
+    <h1 id="heading">Click on the button</h1>
 
-      // window object
-      console.log(window);
-      console.log(window.location);
-      console.log(window.innerHeight);
-      console.log(window.innerWidth);
-    </script>
+    <div class="container">container 1</div>
+    <div class="container">container 2</div>
+
+    <button>Button</button>
+
+    <input type="text" name="name" />
+    <input type="text" name="age" />
+    <script src="./app.js"></script>
   </body>
 </html>
