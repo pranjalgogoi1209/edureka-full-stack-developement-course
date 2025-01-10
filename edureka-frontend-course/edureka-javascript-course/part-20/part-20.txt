@@ -1,1 +1,49 @@
-Edureka course day-37 (javascript part-20, Wednesday, 06/03/2024)
+Edureka course day-65, class-46 (Javascript-20, Tuesday, 12/03/2024)
+
+
+# Event and event handling
+
+# event => Whenver a change in state happens we say an event occured
+
+A ---- B
+
+=> Here an event occured because the state of car changed, it moved from A to B 
+event => moved
+
+* events => 
+click, 
+double click, 
+mouse over event => When our mouse pointer enters an element's boundaries.
+mouse out event => Mouse pointer leaves element's boundaries.
+keypress event => When we type a character, when we press down a key.
+submit event => When a submit button is clicked or a form is submitted.
+change event => Whenever a value of an particular element changes it is refered as change event.
+
+eg: When we write text in input/textarea or select something in dropdown.
+
+
+# what happen when an event occurs ?
+Our browser will create an event object and this object will contain info about our event.
+
+click = {
+    typeOfevent : "event",
+    elementfired: "h1",
+    .....
+    .....
+}
+
+We can write javascript code to use this object and perform task
+
+# Event handlers => Functions or properties in js that are used to respond to specific events for ex click, dbclick, submit.
+
+# html elements will be associated with these functions and properties or in general event handlers.
+
+* elements => event handlers.
+
+* property event handlers => 
+* functional event handler => addEventListner => functions that are executed when an event occurs
+
+addEventListner("eventName", function(){
+    // lines of code
+    // lines of code
+})
