@@ -3,33 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>
+      Edureka course day-66, class-47 (Javascript-21, Wednesday, 13/03/2024)
+    </title>
   </head>
   <body>
-    <button id="throttled">Click Me</button>
-    <script>
-      // throttling
-      function throttled(func, delay) {
-        let key = true;
-        return function () {
-          if (key) {
-            func();
-            key = false;
-            setTimeout(() => {
-              key = true;
-            }, delay);
-          }
-        };
-      }
-      function click() {
-        console.log("button is clicked");
-      }
-      const throttledClick = throttled(click, 1000);
-      const throttledButton = document.querySelector("#throttled");
-      throttledButton.addEventListener("click", throttledClick);
+    <h1 id="heading">Events</h1>
 
-      // async
-      // defer
-    </script>
+    <button>Click Me</button>
+
+    <div id="grand-parent">
+      <div id="parent">
+        <button id="child">Child</button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
   </body>
 </html>

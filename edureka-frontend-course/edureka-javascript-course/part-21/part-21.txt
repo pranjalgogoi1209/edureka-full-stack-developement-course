@@ -1,1 +1,9 @@
 Edureka course day-66, class-47 (Javascript-21, Wednesday, 13/03/2024)
+
+# Event propagation => Describes how our event in propagating/moving in dom tree
+
+# There are two types of event propagations => 
+
+i. Event bublinng => Which is based on the principle that when our event happens on child element, the event listners are then invoked on its parents and then grandparent to all the ancestors.
+
+ii. Event capturing => Ancestors towards the child 
