@@ -1,0 +1,9 @@
+Edureka course day-67, class-48 (Javascript-22, Thursday, 14/03/2024)
+
+// form validation => 
+
+i. Create the form.
+ii. Submit the form.
+iii. To access the data entered in the form by the user.
+iv. Then verifying it or checking it, whether it's in proper format or not.
+
