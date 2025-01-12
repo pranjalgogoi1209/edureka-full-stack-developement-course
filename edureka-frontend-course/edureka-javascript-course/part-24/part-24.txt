@@ -1,0 +1,7 @@
+Edureka course day-71, class-50 (Javascript-24, Monday, 18/03/2024)
+
+# String mode =>
+
+Two ways to use strict mode =>
+i. For an entire script
+ii. For a specific function
