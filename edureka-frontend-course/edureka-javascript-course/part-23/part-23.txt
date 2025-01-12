@@ -1,0 +1,24 @@
+Edureka course day-68, class-49 (Javascript-23, Friday, 15/03/2024)
+
+# Javascript es6 => Introduction of latest features which resulted in syntax changes.
+
+* let and const keyword
+* arrow function
+* classes
+* default parameters
+* find() and findIndex()
+* template string
+* object destructing
+
+# scope => 
+
+* let => block scope meaning it would be available only inside the code block where it is defined.
+* var => global scope, meaning it would be available globally, funciton scope.
+* const => block scope.
+
+# arrow function => 
+const functionName = () => {
+    // line of code
+}
+
+# template string => 
