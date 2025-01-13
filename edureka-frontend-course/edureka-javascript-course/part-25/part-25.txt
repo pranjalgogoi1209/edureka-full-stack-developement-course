@@ -1,0 +1,11 @@
+Edureka course day-72, class-51 (Javascript-25, Tuesday, 19/03/2024)
+
+# Synchronous and Asynchronous programming =>
+
+* Synchronous => It means our program gets executed in a sequence or in the same order that we have defined.
+
+* Asynchronous => It allows our code to get executed without having to wait for long running piece of code.
+
+    i. callback => It is a function passed to another function as a parameter/argument.
+    ii. promise => 
+    iii. async/await
